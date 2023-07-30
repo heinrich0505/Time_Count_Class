@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include <thread>
+// #include <thread>
 
 struct Time_Count
 {
@@ -22,3 +22,8 @@ struct Time_Count
     };
 };
 
+int main()
+{
+    std::cout << "test" << std::endl;
+    return 0;
+}
