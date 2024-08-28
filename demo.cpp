@@ -21,17 +21,3 @@ struct Time_Count
         std::cout << "time cost:" << ms << "ms" << std::endl;
     };
 };
-
-int main()
-{
-    int sum = 4;
-    {
-        Time_Count();
-        for (size_t i = 0; i < 100000000; i++)
-        {
-            sum += i;
-        }
-    }
-    std::cout << "test" << std::endl;
-    return 0;
-}
